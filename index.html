@@ -232,9 +232,17 @@
         $('#navBar').singlePageNav({
             offset:70
         });
+        var time = 0;
+        var startTime = 0;
         //事件委托，支持移动端的触控事件
         $('#navBar').on('touchstart','a',function(){
-            $('#navbar-collapse').collapse('hide');
+            startTime = new Date().getTime();
+        });
+        $('#navBar').on('touchend','a',function(){
+            var endTime = new Date().getTime() - startTime;
+            if(endTime < 300){
+                $('#navbar-collapse').collapse('hide');
+            }
         });
         //PC端鼠标点击事件
         $('#navBar a').on('click',function(){
