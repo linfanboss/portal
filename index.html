@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html manifest="cache.manifest">
 <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
@@ -222,7 +222,7 @@
         </div>
     </div>
 </footer>
-<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.singlePageNav.min.js"></script>
 <script src="js/wow.min.js"></script>
@@ -232,7 +232,6 @@
         $('#navBar').singlePageNav({
             offset:70
         });
-        var time = 0;
         var startTime = 0;
         //事件委托，支持移动端的触控事件
         $('#navBar').on('touchstart','a',function(){

@@ -1,0 +1,23 @@
+CACHE MANIFEST
+# v0.0.1
+
+CACHE:
+#js cache
+js/bootstrap.min.js
+js/wow.min.js
+js/jquery-2.1.4.min.js
+#css cache
+css/bootstrap.min.css
+css/animate.css
+sass/index.css
+#font cache
+#fonts/*.*
+#images cache
+#images/*.*
+
+NETWORK:
+images/favicon.ico
+
+FALLBACK:
+/ /portal/offline.html
+
