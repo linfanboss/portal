@@ -6,14 +6,32 @@ CACHE:
 js/bootstrap.min.js
 js/wow.min.js
 js/jquery-2.1.4.min.js
+js/jquery.singlePageNav.min.js
 #css cache
 css/bootstrap.min.css
 css/animate.css
 sass/index.css
 #font cache
-#fonts/*.*
+fonts/glyphicons-halflings-regular.woff2
 #images cache
-#images/*.*
+images/cources/Android.jpg
+images/cources/AngulaJs.png
+images/cources/html5_css3.jpg
+images/cources/iOS8.png
+images/cources/qdgch.png
+images/cources/React.jpg
+images/cources/webAppUI.png
+images/cources/Zepto.png
+images/a.png
+images/app-banner.jpg
+images/b.png
+images/Bootstrap.jpg
+images/contact-bg.png
+images/favicon.ico
+images/home-bg.jpg
+images/html5.jpg
+images/i.png
+images/php.jpg
 
 NETWORK:
 images/favicon.ico
